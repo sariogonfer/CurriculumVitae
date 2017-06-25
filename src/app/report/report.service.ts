@@ -13,7 +13,7 @@ export class ReportService {
 
   getData(): Observable<Row[]> {
     return this.http
-      .get('../../assets/data/report.json')
+      .get('./assets/data/report.json')
       .map(x => x.json() )
       .map( (data) => <Row[]>data)
   }

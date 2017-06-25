@@ -14,7 +14,7 @@ export class StudiesService {
 
   getData(): Observable<Array<Study>> {
     return this.http
-      .get('../../assets/data/studies.json')
+      .get('./assets/data/studies.json')
       .map( data => data.json() as Array<Study> )
       .do(data => console.log(data))
   }

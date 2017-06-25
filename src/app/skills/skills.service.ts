@@ -13,7 +13,7 @@ export class SkillsService {
 
   getData(): Observable<Skill[]> {
     return this.http
-      .get('../../assets/data/skills.json')
+      .get('./assets/data/skills.json')
       .map(x => x.json() )
       .map( (data) => <Skill[]>data)
   }
