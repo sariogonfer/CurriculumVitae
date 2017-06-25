@@ -1,0 +1,53 @@
+$primary-color: green;
+
+@mixin lyric-terminal-style($size, $weight) {
+  font-size: $size;
+  font-weight: $weight;
+  color: $primary-color;
+}
+
+.two-sides{
+  height: 100%;
+  width: 90%;
+  position: relative;
+  left: 5%;
+  display: flex;
+
+  .left-side, .right-side{
+    @include lyric-terminal-style(18px, normal);
+    width: 50%;
+    height: 100%;
+
+    img {
+      width: 40%;
+    }
+  }
+
+  .left-side {
+    p {
+      font-weight: bold;
+    }
+  }
+
+  .divider {
+    margin: 0 10px;
+    width : 2px;
+    background-color: $primary-color;
+  }
+}
+
+.bar {
+  &.out {
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: $primary-color;
+    width: 80%;
+    height: 20px;
+  }
+  &.in {
+    border: none;
+    height: 100%;
+    background-color: $primary-color;
+  }
+}

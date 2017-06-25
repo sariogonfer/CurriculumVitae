@@ -1,0 +1,30 @@
+<div class="two-sides">
+  <div class="left-side">
+    <p *ngFor="let study of studies;index as i" (mouseenter)="onMouseEnterIn(i)" (mouseleave)="onMouseLeaveFrom(i)">
+      {{ study.title }}
+    </p>
+  </div>
+  <div class="divider">
+
+  </div>
+  <div class="right-side">
+    <div *ngFor="let study of studies;index as i">
+      <div  *ngIf="i == selected">
+        <img *ngIf="study.logo" src="{{ study.logo }}" alt="">
+        <p class="">
+          {{ study.school }}
+        </p>
+        <p *ngIf="study.university" class="">
+          {{ study.university }}
+        </p>
+        <p class="">
+          {{ study.location }}
+        </p>
+        <img src="{{ study.map }}" alt="">
+        <br>
+        <p *ngFor="let extra of study.extras">
+          {{ extra }}
+        </p>
+    </div>
+  </div>
+</div>

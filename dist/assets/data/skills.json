@@ -1,0 +1,35 @@
+[{
+  "name" : "FRONTEND",
+  "skills" : [
+    {"name" : "HTML / CSS", "score": "80"},
+    {"name" : "JavaScript", "score": "80"},
+    {"name" : "Angular", "score": "80"},
+    {"name" : "jQuery", "score": "80"},
+    {"name" : "Ionic", "score": "70"}
+  ]
+},{
+  "name" : "BACKEND",
+  "skills" : [
+    {"name" : "Python / Django", "score": "90"},
+    {"name" : "PostgreSQL / PostGIS", "score": "80"},
+    {"name" : "Apache / uWSGI", "score": "70"},
+    {"name" : "AWS", "score": "70"},
+    {"name" : "GIS / Carto", "score": "70"},
+    {"name" : "Java", "score": "65"}
+  ]
+},{
+  "name" : "Sistemas Operativos",
+  "skills" : [
+    {"name" : "Ubuntu", "score": "80"},
+    {"name" : "Windows", "score": "80"},
+    {"name" : "Android", "score": "70"},
+    {"name" : "CentOS", "score": "30"}
+  ]
+},{
+  "name" : "Ingles",
+  "skills" : [
+    {"name" : "Lectura", "score": "70"},
+    {"name" : "Escritura", "score": "50"},
+    {"name" : "Verbal", "score": "30"}
+  ]
+}]

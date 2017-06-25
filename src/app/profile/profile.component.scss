@@ -1,0 +1,44 @@
+@import "../shared/shared";
+
+.header {
+  position:relative;
+  height: 10%;
+  width:90%;
+  left: 5%;
+  display: flex;
+  justify-content: space-between;
+
+  div, button {
+    @include lyric-terminal-style(20px, bold);
+  }
+  button {
+    background-color: transparent;
+    border: 2px solid green;
+  }
+}
+
+
+.content{
+  position: relative;
+  height: 70%;
+}
+
+.footer {
+  position:absolute;
+  width:100%;
+  height: auto;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+
+  button {
+    @include lyric-terminal-style(20px, bold);
+    border: 2px solid $primary-color;
+    background-color: transparent;
+
+    &.active{
+      background-color: $primary-color;
+      color: rgba(0, 0, 0, 1);
+    }
+  }
+}
