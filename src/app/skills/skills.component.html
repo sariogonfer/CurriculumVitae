@@ -1,6 +1,6 @@
 <div class="two-sides">
   <div class="left-side">
-    <p *ngFor="let skill of skills;index as i" (mouseenter)="onMouseEnterIn(i)" (mouseleave)="onMouseLeaveFrom(i)">
+    <p *ngFor="let skill of skills;index as i" (mouseenter)="onMouseEnterIn(i)" (mouseleave)="onMouseLeaveFrom(i)"  [ngClass]="{'selected': i == selected}">
       {{ skill.name }}
     </p>
   </div>

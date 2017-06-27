@@ -1,9 +1,10 @@
 
 <div id="container">
-  <div id="frame"></div>
-  <input type="checkbox" name="" id="switch" checked>
-  <div id="screen" class="container">
-    <div id="layer" class="screen">
+  <div id="frame">
+    <div id="switch" (click)="toggle()" [ngClass]="{'off': !isPowerOn, 'on': isPowerOn}"></div>
+  </div>
+  <div id="screen" [ngClass]="{'off': !isPowerOn, 'on': isPowerOn}">
+    <div id="layer">
       <router-outlet></router-outlet>
     </div>
   </div>

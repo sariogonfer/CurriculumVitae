@@ -1,6 +1,6 @@
 <div class="two-sides">
   <div class="left-side">
-    <p *ngFor="let study of studies;index as i" (mouseenter)="onMouseEnterIn(i)" (mouseleave)="onMouseLeaveFrom(i)">
+    <p *ngFor="let study of studies;index as i" (mouseenter)="onMouseEnterIn(i)" (mouseleave)="onMouseLeaveFrom(i)" [ngClass]="{'selected': i == selected}">
       {{ study.title }}
     </p>
   </div>
@@ -20,7 +20,7 @@
         <p class="">
           {{ study.location }}
         </p>
-        <img src="{{ study.map }}" alt="">
+        <img *ngIf="study.map" src="{{ study.map }}" alt="">
         <br>
         <p *ngFor="let extra of study.extras">
           {{ extra }}

@@ -15,17 +15,40 @@ $primary-color: green;
 
   .left-side, .right-side{
     @include lyric-terminal-style(18px, normal);
-    width: 50%;
+    width: 60%;
     height: 100%;
+    overflow-y: scroll;
 
     img {
       width: 40%;
     }
+
+    &::-webkit-scrollbar-track
+    {
+    	background-color: transparent;
+    }
+
+    &::-webkit-scrollbar
+    {
+    	width: 12px;
+    	background-color: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb
+    {
+    	background-color: $primary-color;
+    }
   }
 
   .left-side {
+    width: 40%;
     p {
       font-weight: bold;
+
+      &.selected {
+        background-color: $primary-color;
+        color: rgba(0, 0, 0, 1);
+      }
     }
   }
 

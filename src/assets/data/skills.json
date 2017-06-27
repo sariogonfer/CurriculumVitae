@@ -1,5 +1,5 @@
 [{
-  "name" : "FRONTEND",
+  "name" : "Frontend",
   "skills" : [
     {"name" : "HTML / CSS", "score": "80"},
     {"name" : "JavaScript", "score": "80"},
@@ -8,7 +8,7 @@
     {"name" : "Ionic", "score": "70"}
   ]
 },{
-  "name" : "BACKEND",
+  "name" : "Backend",
   "skills" : [
     {"name" : "Python / Django", "score": "90"},
     {"name" : "PostgreSQL / PostGIS", "score": "80"},
@@ -26,7 +26,7 @@
     {"name" : "CentOS", "score": "30"}
   ]
 },{
-  "name" : "Ingles",
+  "name" : "Inglés",
   "skills" : [
     {"name" : "Lectura", "score": "70"},
     {"name" : "Escritura", "score": "50"},

@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { RouterModule, Routes, Router } from '@angular/router';
 
 @Component({
-  selector: 'app-profile',
-  templateUrl: './profile.component.html',
-  styleUrls: ['./profile.component.scss']
+  selector: 'app-terminal',
+  templateUrl: './terminal.component.html',
+  styleUrls: ['./terminal.component.scss']
 })
-export class ProfileComponent implements OnInit {
+export class TerminalComponent implements OnInit {
 
   constructor() { }
 
