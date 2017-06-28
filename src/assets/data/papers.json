@@ -1,0 +1,11 @@
+[{
+  "name" : "Mapas de cobertura móvil para la web con CartoDB y SW Libre",
+  "authors" : "C. González, J. Arévalo, E. Carceller, F. Pedrera, J. Blanco (Elecnor-Deimos)",
+  "conference" : "Jornadas SIG Libre Gerona 2015",
+  "description" : "Presentación de la herramienta desarrollada por Elecnor Deimos para la compañía Orange. Gracias a esta herramienta, Orange puede trabajar con los datos de cobertura que manejan y crear visualizaciones que posteriormente utilizan internamente o muestran en el portal de la compañía. La herramienta cuenta con un asistente web que guía al usuario en la creación de la visualización. La complejidad de los datos requiere de un procesamiento previo a la publicación cuya duración ha pasado de varios días con el sistema antiguo, a apenas unas horas. Para la publicación de los datos se utiliza la plataforma Carto, empresa con la cuál se trabajó codo con codo para poder llevar a cabo este proyecto."
+},{
+  "name" : "3D virtual representation of drones' flights through Cesium.js and Oculus Rift",
+  "authors" : "Matteo Di Paolantonio, Cesar González Fernández, Manuel José Latorre, Félix Pedrera García, Abraham Roldán París",
+  "conference" : "ISSN code: 1591-092X",
+  "description" : "En este trabajo se describe la representación del vuelo de un drone sobre un modelo 3D de la Tierra utilizando Cesium.js y el casco de realidad aumentada Oculus Rift. La visualización de este vuelo es enriquecido usando datos de telemetría, modelos de elevación digitales, imágenes y mosaicos. Todos estos datos son procesados usando herramientas de código abierto y servidas utilizando un servidor web OGC. Todo esto permite al usuario experimentar el vuelo realizado por el drone de manera interactiva aprovechando la inmersión que ofrece la tecnología de las Oculus Rift."
+}]
