@@ -3,13 +3,13 @@
   "company" : "Elecnor Deimos",
   "start_date" : "Oct 2012",
   "end_date" : "Presente",
-  "logo" : "../assets/img/deimos.png",
+  "logo" : "./assets/img/deimos.png",
   "description" : "En una primera etapa, empecé desarrollando aplicaciones para dispositivos móviles Android, tanto nativas, como híbridas utilizando Apache Cordoba. También los servidores que ofrecen una API REST a estas aplicaciones usando Groovy y Grails. En una segunda etapa, participo en proyectos GIS (Geographic Information System). Para el desarrollo de estos el stack tecnológico pasa a ser tecnología web para el front-end, Python junto Django en el back-end y PostgreSQL. Para el tratamiento de la información geográfica, se hace uso de tecnologías GIS (PostGIS, librerías GDAL, GRASS, PostGIS, ...) y se trabaja con Carto como plataforma de publicación."
 },{
   "name" : "Becario en el departamento de IT",
   "company" : "Optenet",
   "start_date" : "Sep 2011",
   "end_date" : "Jul 2012",
-  "logo" : "../assets/img/optenet.png",
+  "logo" : "./assets/img/optenet.png",
   "description" : "Durante este periodo realicé funciones de apoyo en diferentes departamentos dentro de la compañía: Despliegue y Soporte, Información y Tecnología y Pruebas. Algunas de estas tareas fueron ayudar en la instalación de uno de los CPDs de la compañía y configuración de los equipos, personalización de la instalación del sistema operativo CentOS, programación de scripts en Python para la automatización de tareas, diagnóstico y reparación de equipos, soporte dentro de la red interna de la empresa, entre otras tareas."
 }]
