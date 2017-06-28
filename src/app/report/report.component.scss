@@ -1,1 +1,15 @@
 @import "../shared/shared";
+
+.two-sides {
+  .left-side{
+    width: 60%;
+  }
+  .right-side{
+    width: 40%;
+
+    img {
+      width: 99%;
+      border: $primary-color solid 1px;
+    }
+  }
+}

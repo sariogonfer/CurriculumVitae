@@ -4,10 +4,7 @@
       {{ row.key }}: {{ row.value }}
     </p>
   </div>
-  <div class="divider">
-
-  </div>
   <div class="right-side">
-
+    <img *ngFor="let picture of pictures" src="{{ picture.src }}" alt="">
   </div>
 </div>

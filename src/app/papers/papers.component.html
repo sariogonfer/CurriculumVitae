@@ -1,7 +1,7 @@
 <div class="two-sides">
   <div class="left-side">
     <p *ngFor="let paper of papers;index as i" (mouseenter)="onMouseEnterIn(i)" (mouseleave)="onMouseLeaveFrom(i)" [ngClass]="{'selected': i == selected}">
-      {{ paper.title }}
+      {{ paper.name }}
     </p>
   </div>
   <div class="divider">
@@ -10,20 +10,17 @@
   <div class="right-side">
     <div *ngFor="let paper of papers;index as i">
       <div  *ngIf="i == selected">
-        <img *ngIf="paper.logo" src="{{ paper.logo }}" alt="">
         <p class="">
-          {{ paper.school }}
+          {{ paper.authors }}
         </p>
-        <p *ngIf="paper.university" class="">
-          {{ paper.university }}
+        <p *ngIf="paper.conference" class="">
+          {{ paper.conference }}
+        </p>
+        <p *ngIf="paper.code" class="">
+          {{ paper.code }}
         </p>
         <p class="">
-          {{ paper.location }}
-        </p>
-        <img *ngIf="paper.map" src="{{ paper.map }}" alt="">
-        <br>
-        <p *ngFor="let extra of paper.extras">
-          {{ extra }}
+          {{ paper.description }}
         </p>
     </div>
   </div>
