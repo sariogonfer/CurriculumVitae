@@ -1,0 +1,25 @@
+<div *ngIf="subscriptionStatus == 0">
+<p>Este curriculum seguirá actualizandose. Si quieres, puedes subscribirte a mi lista de correos y recibir los cambios más relevantes. Prometo no ser muy pesado XD.</p>
+<form [formGroup]="form" (ngSubmit)="onSubmit(form)">
+  <div class="">
+    <input type="text" [formControl]="form.controls['email']" placeholder="Correo(obligatorio)">
+    <p class="error" *ngIf="form.controls['email'].hasError('required')">El correo es obligatorio.</p>
+    <p  class="error" *ngIf="!form.controls['email'].hasError('required') && form.controls['email'].hasError('email')">El correo debe ser valido.</p>
+  </div>
+  <div class="">
+    <input type="text" [formControl]="form.controls['name']" placeholder="Nombre(opcional)">
+  </div>
+  <div class="">
+    <input type="text" [formControl]="form.controls['company']" placeholder="Empresa(opcional)">
+  </div>
+  <button type="submit" name="button" [disabled]="!form.valid">Suscribirme</button>
+</form>
+</div>
+
+<div  *ngIf="subscriptionStatus == 1">
+  <p>El registro se ha realizado correctamente. Recibirá un correo para confirmar esta suscripción.</p>
+</div>
+
+<div  *ngIf="subscriptionStatus == -1">
+  <p>Se ha producido un error. Por favor, contacte conmigo vía email.</p>
+</div>
