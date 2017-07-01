@@ -1,17 +1,14 @@
-<div class="contacts-container">
-<div *ngIf="contact.emailAddress" class="mail">
-  {{ contact.emailAddress }}
-</div>
-<div *ngIf="contact.mobilePhone" class="mobile">
-  {{ contact.mobilePhone }}
-</div>
-<div *ngIf="contact.linkedin" class="linkedin">
-  {{ contact.linkedin }}
-</div>
-<div *ngIf="contact.github" class="github">
-  {{ contact.github }}
-</div>
-<div *ngIf="contact.subscriberLink" class="subscribe">
-  {{ contact.subscriberLink }}
-</div>
+<div *ngIf="contact" class="contacts-container">
+<a *ngIf="contact.emailAddress" href="mailto:{{ contact.emailAddress }}" >
+  <span class="contact email">{{ contact.emailAddress }}</span>
+</a>
+<a *ngIf="contact.mobilePhone" href="tel:{{ contact.mobilePhone }}" >
+  <span class="contact phone">{{ contact.mobilePhone }}</span>
+</a>
+<a *ngIf="contact.linkedin" href="{{ contact.linkedin }}" >
+  <span class="contact linkedin">{{ contact.linkedin }}</span>
+</a>
+<a *ngIf="contact.github" href="{{ contact.github }}" >
+  <span class="contact github">{{ contact.github }}</span>
+</a>
 </div>

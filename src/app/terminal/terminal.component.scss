@@ -13,8 +13,13 @@
   }
   button {
     background-color: transparent;
-    border: 2px solid green;
+    border: 2px solid $primary-color;
     height: 30px;
+
+    &.active{
+      background-color: $primary-color;
+      color: rgba(0, 0, 0, 1);
+    }
   }
 }
 

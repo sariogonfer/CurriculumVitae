@@ -1,1 +1,40 @@
 @import "../shared/shared";
+
+.contacts-container {
+  height: 100%;
+  width: 90%;
+  position: relative;
+  left: 5%;
+
+  a {
+    color: $primary-color;
+
+    .contact {
+      @include lyric-terminal-style(25px, bold);
+      margin: 5px 0;
+      display: block;
+      line-height: 50px;
+      padding-left: 60px;
+      background-repeat: no-repeat;
+      background-size: auto 100%;
+    }
+
+    .email {
+      background-image: url(../../assets/img/email.png);
+    }
+    .phone {
+      background-image: url(../../assets/img/phone.png);
+    }
+    .linkedin {
+      background-image: url(../../assets/img/linkedin.png);
+    }
+    .github {
+      background-image: url(../../assets/img/github.png);
+    }
+  }
+
+  app-subscriber {
+    position: absolute;
+    bottom: 0;
+  }
+}

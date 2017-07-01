@@ -6,6 +6,26 @@ $primary-color: green;
   color: $primary-color;
 }
 
+*::-webkit-input-placeholder {
+    color: $primary-color;
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    color: $primary-color;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    color: $primary-color;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    color: $primary-color;
+}
+
+*:focus {
+    outline: none;
+}
+
 .two-sides{
   height: 100%;
   width: 90%;
