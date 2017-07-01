@@ -1,0 +1,13 @@
+[{
+  "title" : "Ing. Tec. de Telecomunicación Especialidad en Telemática",
+  "school" : "Escuela Técnica Superior de Ingeniería y Sistemas de Telecomunicación",
+  "university" : "Universidad Politécnica de Madrid",
+  "location" : "Madrid, España",
+  "extras" : ["Proyecto Fin de Carrera: 'Propuesta de ejercicios prácticos de desarrollo de aplicaciones híbridas'. Nota: 9"],
+  "logo" : "./assets/img/logoETSIT.png"
+},{
+  "title" : "Bachillerato Tecnológico",
+  "school" : "Salesianos Atocha",
+  "location" : "Madrid, Espana",
+  "map" : "./assets/img/spain.png"
+}]

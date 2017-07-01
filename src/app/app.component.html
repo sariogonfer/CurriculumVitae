@@ -3,7 +3,7 @@
   <div id="frame">
     <div id="switch" (click)="toggle()" [ngClass]="{'off': !isPowerOn, 'on': isPowerOn}"></div>
   </div>
-  <div id="screen" [ngClass]="{'off': !isPowerOn, 'on': isPowerOn}">
+  <div id="screen" class="off" [ngClass]="{'off': !isPowerOn, 'on': isPowerOn}">
     <div id="layer">
       <router-outlet></router-outlet>
     </div>
