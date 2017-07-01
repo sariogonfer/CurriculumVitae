@@ -1,5 +1,4 @@
-
-<div id="container">
+<div id="container" [style.transform]="'scale(' + scale + ')'">
   <div id="frame">
     <div id="switch" (click)="toggle()" [ngClass]="{'off': !isPowerOn, 'on': isPowerOn}"></div>
   </div>
