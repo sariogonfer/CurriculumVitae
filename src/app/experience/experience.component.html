@@ -17,8 +17,8 @@
         <p class="">
           {{ experience.start_date }} >> {{ experience.end_date }}
         </p>
-        <p class="">
-          {{ experience.description }}
+        <p *ngFor="let p of experience.description" class="">
+          {{ p }}
         </p>
     </div>
   </div>

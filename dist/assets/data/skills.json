@@ -32,4 +32,14 @@
     {"name" : "Escritura", "score": "50"},
     {"name" : "Verbal", "score": "30"}
   ]
+},{
+  "name" : "Otras",
+  "skills" : [
+    {"name" : "SVN / Git", "score": "75"},
+    {"name" : "Jira", "score": "65"},
+    {"name" : "Grooby / GRAILS", "score": "50"},
+    {"name" : "Progranación Android", "score": "50"},
+    {"name" : "Backbone", "score": "50"},
+    {"name" : "Unity / Blender", "score": "40"}
+  ]
 }]

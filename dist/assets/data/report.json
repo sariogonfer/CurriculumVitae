@@ -4,7 +4,7 @@
     "value" : "César González Fernández"
   },{
     "key" : "PROFESIóN",
-    "value" : "PROGRAMADOR"
+    "value" : "DESARROLLADOR FULL-STACK"
   },{
     "key" : "FECHA DE NACIMIENTO",
     "value" : "05 / 02 / 1990"
@@ -13,7 +13,7 @@
     "value" : "MADRID, ESPAñA"
   },{
     "key" : "OBSERVACIONES",
-    "value" : "NO SE SEPARA NUNCA DE SU BARBA"
+    "value" : "ES UNO CON SU BARBA"
   }],
   "pictures" : [
     {"src" : "./assets/img/me_green_1.png"}

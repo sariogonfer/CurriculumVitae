@@ -1,4 +1,11 @@
 [{
+  "title" : "Futurible: Master Data Science",
+  "school" : "Escuela Técnica Superior de Ingeniería y Sistemas de Telecomunicación",
+  "university" : "Universidad Rey Juan Carlos",
+  "location" : "Madrid, España",
+  "extras" : ["A la espera de saber si soy seleccionado para una de las plazas ofertadas en el curso 2017/2018. De no se así, probaría suerte con el 'Master en Business Intelligence y Big Data' que ofrece INESEM Business School"],
+  "logo" : "./assets/img/URJC.png"
+},{
   "title" : "Ing. Tec. de Telecomunicación Especialidad en Telemática",
   "school" : "Escuela Técnica Superior de Ingeniería y Sistemas de Telecomunicación",
   "university" : "Universidad Politécnica de Madrid",
