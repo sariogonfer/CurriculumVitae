@@ -1,5 +1,6 @@
 [{
   "name" : "Frontend",
+  "type": "knowledge",
   "skills" : [
     {"name" : "HTML / CSS", "score": "80"},
     {"name" : "JavaScript", "score": "80"},
@@ -9,6 +10,7 @@
   ]
 },{
   "name" : "Backend",
+  "type": "knowledge",
   "skills" : [
     {"name" : "Python / Django", "score": "90"},
     {"name" : "PostgreSQL / PostGIS", "score": "80"},
@@ -19,6 +21,7 @@
   ]
 },{
   "name" : "Sistemas Operativos",
+  "type": "knowledge",
   "skills" : [
     {"name" : "Ubuntu", "score": "80"},
     {"name" : "Windows", "score": "80"},
@@ -27,6 +30,7 @@
   ]
 },{
   "name" : "Inglés",
+  "type": "knowledge",
   "skills" : [
     {"name" : "Lectura", "score": "70"},
     {"name" : "Escritura", "score": "50"},
@@ -34,12 +38,23 @@
   ]
 },{
   "name" : "Otras",
+  "type": "knowledge",
   "skills" : [
     {"name" : "SVN / Git", "score": "75"},
     {"name" : "Jira", "score": "65"},
-    {"name" : "Grooby / GRAILS", "score": "50"},
-    {"name" : "Progranación Android", "score": "50"},
+    {"name" : "LaTeX", "score": "60"},
+    {"name" : "Groovy / GRAILS", "score": "50"},
+    {"name" : "Programación Android", "score": "50"},
     {"name" : "Backbone", "score": "50"},
     {"name" : "Unity / Blender", "score": "40"}
+  ]
+},{
+  "name" : "Habilidades Personales",
+  "type": "personal",
+  "skills" : [
+    {"name" : "Iniciativa"},
+    {"name" : "Curiosidad"},
+    {"name" : "Trabajo en equipo"},
+    {"name" : "Habilidades sociales"}
   ]
 }]

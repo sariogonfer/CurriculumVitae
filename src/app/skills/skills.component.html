@@ -9,17 +9,30 @@
   </div>
   <div class="right-side">
     <div *ngFor="let skill of skills;index as i">
-      <div  *ngIf="i == selected">
-        <div *ngFor="let skill of skill.skills;index as i">
-          <p class="">
-            {{ skill.name }}
-          </p>
-          <div class="bar out">
-            <div class="bar in" [style.width.%]="skill.score">
+      <div *ngIf="i == selected" class="">
+        <div *ngIf="skill.type == 'knowledge'" class="skill knowledge">
+          <div *ngFor="let skill of skill.skills;index as i">
+            <p class="">
+              {{ skill.name }}
+            </p>
+            <div class="bar out">
+              <div class="bar in" [style.width.%]="skill.score">
 
+              </div>
             </div>
           </div>
         </div>
+
+        <div *ngIf="skill.type == 'personal'" class="skill personal">
+          <div class="curly-bracket">
+            <div *ngFor="let skill of skill.skills;index as i">
+              <p class="">
+                {{ skill.name }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>

@@ -1,1 +1,20 @@
 @import "../shared/shared";
+
+.skill.personal {
+  position: absolute;
+  height: 100%;
+  background-image: url(../../assets/img/man.png);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  padding-left: 100px;
+  background-position-x: -90px;
+
+  .curly-bracket {
+    background-image: url(../../assets/img/open_curly_bracket.png);
+    background-repeat: no-repeat;
+    background-size: 35px 100%;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 50px;
+  }
+}
