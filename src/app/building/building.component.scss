@@ -1,0 +1,18 @@
+@import "../shared/shared";
+
+.building {
+  height: 100%;
+  width: 100%;
+  .signal {
+    height: 80%;
+    background-image: url(../../assets/img/building.png);
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .message {
+    @include lyric-terminal-style(40px, bold);
+    text-align: center;
+    margin-top: 5%;
+  }
+}

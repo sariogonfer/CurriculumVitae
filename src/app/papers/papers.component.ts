@@ -9,7 +9,7 @@ import { Paper } from './papers.interfaces';
 })
 export class PapersComponent implements OnInit {
   private _papers: Array<Paper> = [];
-  private _selected: number = null;
+  private _selected: number = 0;
 
   constructor(private papersService: PapersService) {
     papersService.getData().subscribe( (papers) => this._papers = papers );

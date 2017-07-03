@@ -18,6 +18,7 @@ import { PapersComponent } from './papers/papers.component';
 import { PapersService } from './papers/papers.service';
 import { ContactComponent } from './contact/contact.component';
 import { ContactService } from './contact/contact.service';
+import { BuildingComponent } from './building/building.component';
 
 
 const appRoutes: Routes = [{
@@ -31,6 +32,7 @@ const appRoutes: Routes = [{
       { path: 'experience', component: ExperienceComponent },
       { path: 'papers', component: PapersComponent },
       { path: 'contact', component: ContactComponent },
+      { path: 'building', component: BuildingComponent },
     ]
   }]
 
@@ -43,7 +45,8 @@ const appRoutes: Routes = [{
     SkillsComponent,
     ExperienceComponent,
     PapersComponent,
-    ContactComponent
+    ContactComponent,
+    BuildingComponent
   ],
   imports: [
     RouterModule.forRoot(appRoutes),

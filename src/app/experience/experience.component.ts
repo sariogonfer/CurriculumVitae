@@ -9,7 +9,7 @@ import { Experience } from './experience.interfaces';
 })
 export class ExperienceComponent implements OnInit {
   private _experiences: Array<Experience> = [];
-  private _selected: number = null;
+  private _selected: number = 0;
 
   constructor(private experienceService: ExperienceService) {
     experienceService.getData().subscribe( (studies) => this._experiences = studies );

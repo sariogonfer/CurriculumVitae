@@ -9,7 +9,7 @@ import { Study } from './studies.interfaces';
 })
 export class StudiesComponent implements OnInit {
   private _studies: Array<Study> = [];
-  private _selected: number = null;
+  private _selected: number = 0;
 
   constructor(private studiesService: StudiesService) {
     studiesService.getData().subscribe( (studies) => this._studies = studies );

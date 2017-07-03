@@ -9,7 +9,7 @@ import { Skill } from './skills.interfaces';
 })
 export class SkillsComponent implements OnInit {
   private _skills: Array<Skill> = [];
-  private _selected: number = null;
+  private _selected: number = 0;
 
   constructor(private skillsService: SkillsService) {
     skillsService.getData().subscribe( (skills) => this._skills = skills );
