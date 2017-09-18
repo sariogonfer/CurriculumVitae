@@ -1,8 +1,15 @@
 [{
   "name" : "Ingeniero de Desarrollo Software",
+  "company" : "Buguroo",
+  "start_date" : "Sep 2017",
+  "end_date" : "Presente",
+  "logo" : "./assets/img/buguroo.png",
+  "description" : ["Desarrollador de Python."]
+},{
+  "name" : "Ingeniero de Desarrollo Software",
   "company" : "Elecnor Deimos",
   "start_date" : "Oct 2012",
-  "end_date" : "Presente",
+  "end_date" : "Ago 2017",
   "logo" : "./assets/img/deimos.png",
   "description" : ["En una primera etapa, empecé desarrollando aplicaciones para dispositivos móviles Android, tanto nativas, como híbridas utilizando Apache Cordoba. También los servidores que ofrecen una API REST a estas aplicaciones usando Groovy y Grails.", "En una segunda etapa, participo en proyectos GIS (Geographic Information System). Para el desarrollo de estos el stack tecnológico pasa a ser tecnología web para el front-end, Python junto Django en el back-end y PostgreSQL. Para el tratamiento de la información geográfica, se hace uso de tecnologías GIS (PostGIS, librerías GDAL, GRASS, PostGIS, ...) y se trabaja con Carto como plataforma de publicación."]
 },{
